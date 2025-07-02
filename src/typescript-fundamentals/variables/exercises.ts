@@ -7,6 +7,10 @@ console.log(nome);
 // Esercizio 2 – Variabile numerica
 // Dichiara una variabile eta e assegnale un numero intero.
 
+const eta: number = 25;
+console.log(eta);
+
+
 // Esercizio 3 – Costante
 // Crea una costante PI con valore 3.14.
 
