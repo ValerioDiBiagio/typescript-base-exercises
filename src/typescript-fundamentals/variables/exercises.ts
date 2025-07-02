@@ -10,9 +10,11 @@ console.log(nome);
 const eta: number = 25;
 console.log(eta);
 
-
 // Esercizio 3 – Costante
 // Crea una costante PI con valore 3.14.
+
+const PI: number = 3.14;
+console.log(PI);
 
 // Esercizio 4 – Variabile booleana
 // Dichiara una variabile isOnline e assegnale il valore true.
