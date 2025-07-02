@@ -37,7 +37,13 @@ punteggio = 100;
 console.log(punteggio);
 
 // Esercizio 7 – Somma di due numeri
-// Dichiara due variabili a e b, sommale e stampa il risultato.
+// Dichiara due variabili num1 e num2, sommale e stampa il risultato.
+
+const num1: number = 5;
+const num2: number = 5;
+
+const sum: number = num1 + num2
+console.log(sum);
 
 // Esercizio 8 – String template
 // Crea una variabile nomeUtente, una anni, e stampa "Ciao Marco, hai 28 anni." usando template string.
