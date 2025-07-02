@@ -31,6 +31,11 @@ console.log(colorePreferito);
 // Esercizio 6 – Riassegnazione
 // Crea una variabile punteggio con valore 0, poi aggiornala a 100.
 
+let punteggio: number = 0;
+console.log(punteggio);
+punteggio = 100;
+console.log(punteggio);
+
 // Esercizio 7 – Somma di due numeri
 // Dichiara due variabili a e b, sommale e stampa il risultato.
 
