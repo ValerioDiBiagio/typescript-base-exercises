@@ -48,6 +48,11 @@ console.log(sum);
 // Esercizio 8 – String template
 // Crea una variabile nomeUtente, una anni, e stampa "Ciao Marco, hai 28 anni." usando template string.
 
+const nomeUtente: string = "Marco";
+const anni: number = 28;
+
+console.log(`Ciao ${nomeUtente}, hai ${anni} anni.`);
+
 // Esercizio 9 – Errore di tipo
 // Dichiara una variabile livello come number e prova ad assegnarle una stringa.
 
