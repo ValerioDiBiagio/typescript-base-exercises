@@ -61,3 +61,6 @@ console.log(`Ciao ${nomeUtente}, hai ${anni} anni.`);
 
 // Esercizio 10 – Variabili multiple
 // Dichiara tre variabili in una sola riga: x = 5, y = 10, z = 15, e stampale.
+
+const x: number = 5, y: number = 10, z: number = 15;
+console.log(x, y, z);
