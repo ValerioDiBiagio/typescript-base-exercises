@@ -56,5 +56,8 @@ console.log(`Ciao ${nomeUtente}, hai ${anni} anni.`);
 // Esercizio 9 – Errore di tipo
 // Dichiara una variabile livello come number e prova ad assegnarle una stringa.
 
+// const livello: number = "9";
+// console.log(livello);
+
 // Esercizio 10 – Variabili multiple
 // Dichiara tre variabili in una sola riga: x = 5, y = 10, z = 15, e stampale.
