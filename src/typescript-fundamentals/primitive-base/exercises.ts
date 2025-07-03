@@ -27,8 +27,12 @@ console.log(datoNullo);
 
 // Assegna undefined a una variabile e verifica typeof
 
+const indefinita: undefined = undefined
+console.log(typeof indefinita);
+
 
 // Concatena due stringhe con template literals
+
 
 
 // Scrivi una funzione che prende due numeri e restituisce la somma
