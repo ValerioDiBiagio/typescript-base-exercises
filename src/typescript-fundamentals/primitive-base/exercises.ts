@@ -70,3 +70,20 @@ const nessunDato = null;
 const indef = undefined;
 
 console.log(typeof nessunDato, typeof indef);
+
+// Crea due variabili bigint chiamate prezzoA e prezzoB, con valori molto grandi.
+// Calcola la somma, la differenza e il prodotto dei due prezzi.
+
+const prezzoA: bigint = 234758593034n;
+const prezzoB: bigint = 85867893757n;
+
+const somma1: bigint = prezzoA + prezzoB;
+console.log(somma1)
+
+const sottrazione: bigint = prezzoA - prezzoB;
+console.log(sottrazione);
+
+const moltiplicazione: bigint = prezzoA * prezzoB;
+console.log(moltiplicazione);
+
+
