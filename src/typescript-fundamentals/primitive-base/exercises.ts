@@ -19,8 +19,10 @@ if (isActive) {
     console.log("Sono attivo");
 }
 
-
 // Assegna null a una variabile e stampala
+
+const datoNullo: null = null;
+console.log(datoNullo);
 
 
 // Assegna undefined a una variabile e verifica typeof
