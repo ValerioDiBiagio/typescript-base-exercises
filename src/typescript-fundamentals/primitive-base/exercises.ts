@@ -86,4 +86,18 @@ console.log(sottrazione);
 const moltiplicazione: bigint = prezzoA * prezzoB;
 console.log(moltiplicazione);
 
+// Prova a sommare una variabile number a un bigint (deve dare errore) e poi risolvi convertendo il numero.
+
+const number: number = 5566332;
+const number2: bigint = 48578589395592n
+
+// const somma2: bigint = number + number2;
+// console.log(somma2);
+
+const convertereBigint: bigint = BigInt(number);
+const somma2: bigint = convertereBigint + number2;
+
+console.log(somma2);
+
+
 
