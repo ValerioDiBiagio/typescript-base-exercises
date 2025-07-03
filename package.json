@@ -5,7 +5,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
-    "e1": "node dist/typescript-fundamentals/variables/exercises.js"
+    "e1": "node dist/typescript-fundamentals/variables/exercises.js",
+    "e2": "node dist/typescript-fundamentals/primitive-base/exercises.js"
   },
   "keywords": [],
   "author": "",
