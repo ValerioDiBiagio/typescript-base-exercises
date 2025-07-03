@@ -13,6 +13,12 @@ console.log(somm);
 
 // Usa un booleano in una condizione if
 
+const isActive: boolean = true;
+
+if (isActive) {
+    console.log("Sono attivo");
+}
+
 
 // Assegna null a una variabile e stampala
 
