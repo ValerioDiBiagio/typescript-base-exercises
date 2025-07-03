@@ -33,7 +33,10 @@ console.log(typeof indefinita);
 
 // Concatena due stringhe con template literals
 
+const saluto: string = "Ciao"
+const nomePersona: string = "Valerio"
 
+console.log(`${saluto} ${nomePersona}`);
 
 // Scrivi una funzione che prende due numeri e restituisce la somma
 
