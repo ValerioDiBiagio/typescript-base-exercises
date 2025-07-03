@@ -40,6 +40,12 @@ console.log(`${saluto} ${nomePersona}`);
 
 // Scrivi una funzione che prende due numeri e restituisce la somma
 
+function somma(num1: number, num2: number) {
+    return num1 + num2
+}
+
+console.log(somma(5, 5));
+
 
 // Usa typeof su ogni tipo primitivo
 
