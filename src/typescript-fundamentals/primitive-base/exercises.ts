@@ -49,6 +49,14 @@ console.log(somma(5, 5));
 
 // Usa typeof su ogni tipo primitivo
 
+const n = 5;
+const s = "ciao";
+const b = true;
+const nullo = null;
+const u = undefined;
+
+console.log(typeof n, typeof s, typeof b, typeof nullo, typeof u);
+
 
 // Tipizza una variabile booleana con const isActive: boolean = true
 
