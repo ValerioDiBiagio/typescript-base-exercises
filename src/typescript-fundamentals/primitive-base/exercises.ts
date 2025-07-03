@@ -6,6 +6,10 @@ console.log(cibo);
 
 // Crea due numeri e stampane la somma
 
+const numero1: number = 4;
+const numero2: number = 3;
+const somm: number = numero1 + numero2;
+console.log(somm);
 
 // Usa un booleano in una condizione if
 
