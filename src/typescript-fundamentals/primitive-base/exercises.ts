@@ -60,6 +60,9 @@ console.log(typeof n, typeof s, typeof b, typeof nullo, typeof u);
 
 // Tipizza una variabile booleana con const isActive: boolean = true
 
+const isActive1: boolean = true;
+console.log(isActive1);
+
 
 
 // Verifica typeof su valori null e undefined
