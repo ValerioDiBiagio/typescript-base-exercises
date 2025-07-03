@@ -64,5 +64,9 @@ const isActive1: boolean = true;
 console.log(isActive1);
 
 
-
 // Verifica typeof su valori null e undefined
+
+const nessunDato = null;
+const indef = undefined;
+
+console.log(typeof nessunDato, typeof indef);
