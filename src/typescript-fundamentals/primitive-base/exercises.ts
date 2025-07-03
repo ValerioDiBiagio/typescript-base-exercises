@@ -99,5 +99,10 @@ const somma2: bigint = convertereBigint + number2;
 
 console.log(somma2);
 
+// Usa il tipo Symbol in una variabile e stampa il risultato.
+
+const userId: symbol = Symbol("Id utente unico");
+console.log(userId);
+
 
 
