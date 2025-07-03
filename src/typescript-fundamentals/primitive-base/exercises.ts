@@ -104,5 +104,10 @@ console.log(somma2);
 const userId: symbol = Symbol("Id utente unico");
 console.log(userId);
 
+// Crea due simboli Symbol("id") e verifica se sono uguali.
 
+const id: symbol = Symbol(22);
+const id2: symbol = Symbol(23);
+
+console.log(id === id2);
 
