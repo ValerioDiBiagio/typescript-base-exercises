@@ -35,7 +35,7 @@ if (typeof dato === "string") {
 // Mostra l’errore con unknown senza controllo e correggi l'errore
 
 const num: unknown = 6;
-// console.log(dato.tofixed());
+// console.log(num.tofixed());
 
 if (typeof num === "number") {
     console.log(num.toFixed());
