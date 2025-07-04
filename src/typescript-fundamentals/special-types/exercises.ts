@@ -52,8 +52,16 @@ saluta("Valerio");
 
 // Scrivi una funzione mostraAlert che mostra un alert("Attenzione!"). Specifica che il tipo di ritorno è void.
 
-function mostraAlert(): void {
-    alert("Attenzione!")
+// function mostraAlert(): void {
+//     alert("Attenzione!")
+// }
+
+// mostraAlert()
+
+// Crea una funzione erroreCritico che prende una stringa e lancia sempre un Error. Usa il tipo di ritorno never.
+
+function erroreCritico(messaggio: string): never {
+    throw new Error(messaggio);
 }
 
-mostraAlert()
+erroreCritico("C'è un errore!")
