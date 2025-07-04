@@ -40,3 +40,13 @@ const num: unknown = 6;
 if (typeof num === "number") {
     console.log(num.toFixed());
 }
+
+// Crea una funzione saluta che accetta un nome e stampa "Ciao, <nome>", senza restituire nulla.
+
+function saluta(nome: string): void {
+    console.log(`Ciao ${nome}`)
+
+}
+
+saluta("Valerio");
+
