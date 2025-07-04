@@ -50,3 +50,10 @@ function saluta(nome: string): void {
 
 saluta("Valerio");
 
+// Scrivi una funzione mostraAlert che mostra un alert("Attenzione!"). Specifica che il tipo di ritorno è void.
+
+function mostraAlert(): void {
+    alert("Attenzione!")
+}
+
+mostraAlert()
