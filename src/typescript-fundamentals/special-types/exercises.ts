@@ -60,8 +60,10 @@ saluta("Valerio");
 
 // Crea una funzione erroreCritico che prende una stringa e lancia sempre un Error. Usa il tipo di ritorno never.
 
-function erroreCritico(messaggio: string): never {
-    throw new Error(messaggio);
-}
+// function erroreCritico(messaggio: string): never {
+//     throw new Error(messaggio);
+// }
 
-erroreCritico("C'è un errore!")
+// erroreCritico("C'è un errore!")
+
+
