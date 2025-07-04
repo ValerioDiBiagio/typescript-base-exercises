@@ -19,3 +19,14 @@ console.log(dati);
 
 dati = ["mela", "arancia", "pera"];
 console.log(dati);
+
+
+// Hai un valore dato di tipo unknown. Stampalo in maiuscolo solo se è una stringa.
+
+const dato: unknown = "Mi chiamo Valerio";
+
+if (typeof dato === "string") {
+    console.log(dato.toUpperCase());
+} else {
+    console.log("Non è una stringa");
+}
