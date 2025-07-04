@@ -30,3 +30,12 @@ if (typeof dato === "string") {
 } else {
     console.log("Non è una stringa");
 }
+
+
+// Mostra l’errore con unknown senza controllo e correggi l'errore
+
+const num: unknown = 6;
+
+if (typeof num === "number") {
+    console.log(num.toFixed());
+}
