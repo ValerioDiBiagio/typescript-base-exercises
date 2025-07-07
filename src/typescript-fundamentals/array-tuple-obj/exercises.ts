@@ -75,9 +75,24 @@ console.log(numRadd);
 // Poi stampa: 
 // Auto: Fiat, anno: 2012
 
-let auto: { marca: string, anno: number } = {
+const auto: { marca: string, anno: number } = {
     marca: "Fiat",
     anno: 2012
 }
 
 console.log(`Auto: ${auto.marca} anno: ${auto.anno}`);
+
+// Crea un oggetto film con le proprietà:
+
+// titolo
+
+// durata
+// Poi stampa: Interstellar dura 169 minuti
+
+const movie: { titolo: string, durata: number } = {
+    titolo: "Interstellar",
+    durata: 169
+}
+
+console.log(`${movie.titolo} dura ${movie.durata} minuti`);
+
