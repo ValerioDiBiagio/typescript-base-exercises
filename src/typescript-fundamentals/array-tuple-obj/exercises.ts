@@ -24,11 +24,9 @@ console.log(som);
 const person: [string, number] = ["Marco", 34];
 person.forEach(persona => console.log(persona));
 
-
-
-
 // Crea una tupla che rappresenta un libro con titolo, autore, e anno.
 
-
+const libro: [string, string, number] = ["Foto dal futuro", "R. L. Stine", 1994];
+console.log(libro);
 
 // Scrivi una funzione che prende una tupla [nome, età] e stampa una frase.
