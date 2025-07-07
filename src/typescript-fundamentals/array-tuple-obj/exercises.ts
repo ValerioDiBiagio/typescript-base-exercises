@@ -41,3 +41,8 @@ utente(["Luca", 23]);
 
 const coordinate: [number, number] = [5, 8];
 coordinate.forEach(cordinata => console.log(cordinata));
+
+// Crea una tupla con titolo, durata in minuti, e valutazione (numero da 1 a 10).
+
+const film: [string, number, number] = ["Fast and Furious", 148, 10];
+console.log(film);
