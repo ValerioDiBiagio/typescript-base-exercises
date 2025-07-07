@@ -98,9 +98,8 @@ console.log(`${movie.titolo} dura ${movie.durata} minuti`);
 
 // Crea un oggetto utente con le proprietà:
 
-// username di tipo string
-
-// online di tipo boolean
+// username
+// online
 // Stampa:
 
 // se è online → "claudia87 è online"
@@ -117,3 +116,29 @@ if (user.online) {
 } else {
     console.log(`${user.username} è offline`)
 }
+
+
+// Crea un array di oggetti chiamato persone, dove ogni oggetto ha:
+
+// nome 
+
+// eta 
+
+// Stampa ogni persona nel formato:
+// Marco ha 25 anni
+
+const persone: { nome: string, eta: number }[] = [{
+    nome: "Stefano",
+    eta: 36
+},
+{
+    nome: "Mauro",
+    eta: 23
+},
+{
+    nome: "Simone",
+    eta: 39
+}
+]
+
+persone.forEach(persona => console.log(`${persona.nome} ha ${persona.eta} anni`));
