@@ -46,3 +46,11 @@ coordinate.forEach(cordinata => console.log(cordinata));
 
 const film: [string, number, number] = ["Fast and Furious", 148, 10];
 console.log(film);
+
+// Scrivi una funzione che prende una tupla [nome prodotto, prezzo] e stampa una frase.
+
+function prodotto(dettagli: [nome: string, prezzo: number]): void {
+    console.log(`Il ${dettagli[0]} costa ${dettagli[1]} euro`)
+}
+
+prodotto(["Monitor", 235]);
