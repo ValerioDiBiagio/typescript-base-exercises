@@ -7,7 +7,8 @@
     "build": "tsc",
     "e1": "node dist/typescript-fundamentals/variables/exercises.js",
     "e2": "node dist/typescript-fundamentals/primitive-base/exercises.js",
-    "e3": "node dist/typescript-fundamentals/special-types/exercises.js"
+    "e3": "node dist/typescript-fundamentals/special-types/exercises.js",
+    "e4": "node dist/typescript-fundamentals/array-tuple-obj/exercises.js"
   },
   "keywords": [],
   "author": "",
