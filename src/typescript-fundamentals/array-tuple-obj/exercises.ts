@@ -96,3 +96,24 @@ const movie: { titolo: string, durata: number } = {
 
 console.log(`${movie.titolo} dura ${movie.durata} minuti`);
 
+// Crea un oggetto utente con le proprietà:
+
+// username di tipo string
+
+// online di tipo boolean
+// Stampa:
+
+// se è online → "claudia87 è online"
+
+// altrimenti → "claudia87 è offline"
+
+const user: { username: string, online: boolean } = {
+    username: "Claudia87",
+    online: true
+}
+
+if (user.online) {
+    console.log(`${user.username} è online`)
+} else {
+    console.log(`${user.username} è offline`)
+}
