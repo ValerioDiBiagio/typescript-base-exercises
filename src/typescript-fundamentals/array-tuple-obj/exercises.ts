@@ -59,3 +59,11 @@ prodotto(["Monitor", 235]);
 
 const nomi: string[] = ["Mario", "Matteo", "Sossio"];
 nomi.forEach(nome => console.log(`Ciao, ${nome}`));
+
+
+// Dato l'array [2,8,9,4], crea un nuovo array con ogni numero raddoppiato.
+
+const numBase: number[] = [2, 8, 9, 4];
+const numRadd: number[] = numBase.map(numero => numero * 2);
+
+console.log(numRadd);
