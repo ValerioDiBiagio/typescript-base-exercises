@@ -29,3 +29,16 @@ interface Persona {
 
 const persona: Persona = { nome: "Mario", eta: 26 }
 console.log(`Sono ${persona.nome} e ho ${persona.eta} anni`);
+
+// Partendo da interface Persona, crea una nuova interfaccia Studente che aggiunge:
+
+// corso: string
+
+interface Studente extends Persona {
+    corso: string
+}
+
+const studente: Studente = { nome: "Mario", eta: 26, corso: "Storia" }
+console.log(studente);
+
+
