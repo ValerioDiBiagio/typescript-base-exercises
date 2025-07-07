@@ -42,3 +42,18 @@ const studente: Studente = { nome: "Mario", eta: 26, corso: "Storia" }
 console.log(studente);
 
 
+// Usa type o interface per definire un array di prodotti e stampali.
+
+type Prodotti = {
+    nome: string,
+    prezzo: number,
+    disponibile: boolean
+}
+
+const prod: Prodotti[] = [
+    { nome: "Divano", prezzo: 550, disponibile: true },
+    { nome: "Tv", prezzo: 750, disponibile: true },
+    { nome: "Zaino", prezzo: 50, disponibile: false }
+]
+
+prod.forEach(prodotto => console.log(prodotto.nome, prodotto.prezzo, prodotto.disponibile)); 
