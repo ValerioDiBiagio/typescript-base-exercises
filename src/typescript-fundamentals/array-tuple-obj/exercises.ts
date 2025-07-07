@@ -4,8 +4,24 @@
 const numeri: number[] = [1, 2, 3, 4, 5];
 numeri.forEach(numero => console.log(numero));
 
-// Dato l’array [1, 2, 3, 4, 5, 6], crea una funzione che restituisca solo i numeri pari.
+// Crea una funzione che restituisca solo i numeri pari.
+
+function numeriPari(numeri: number[]): number[] {
+    return numeri.filter(numero => numero % 2 === 0)
+}
+
+console.log(numeriPari([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]));
+
+
+
+
+
+
+
+
 // Somma tutti i numeri dell’array [3, 7, 2, 8, 13].
+
+
 
 
 
