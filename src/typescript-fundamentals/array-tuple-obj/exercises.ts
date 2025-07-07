@@ -30,3 +30,9 @@ const libro: [string, string, number] = ["Foto dal futuro", "R. L. Stine", 1994]
 console.log(libro);
 
 // Scrivi una funzione che prende una tupla [nome, età] e stampa una frase.
+
+function utente(dati: [nome: string, eta: number]): void {
+    console.log(`Mi chiamo ${dati[0]} e ho ${dati[1]} anni`)
+}
+
+utente(["Luca", 23]);
