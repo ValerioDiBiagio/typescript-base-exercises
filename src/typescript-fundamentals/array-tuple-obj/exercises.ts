@@ -142,3 +142,30 @@ const persone: { nome: string, eta: number }[] = [{
 ]
 
 persone.forEach(persona => console.log(`${persona.nome} ha ${persona.eta} anni`));
+
+// Crea un array di oggetti chiamato prodotti e filtra i prodotti che costano meno di 10 euro e stampali.
+
+const prodotti: { nome: string, prezzo: number }[] = [{
+    nome: "ps5",
+    prezzo: 499
+},
+{
+    nome: "Pc",
+    prezzo: 1230
+},
+{
+    nome: "Penna",
+    prezzo: 3
+},
+{
+    nome: "Lavatrice",
+    prezzo: 567
+},
+{
+    nome: "Gomma",
+    prezzo: 2
+}
+]
+
+const prodEconomici = prodotti.filter(prodotto => prodotto.prezzo < 10);
+console.log(prodEconomici);
