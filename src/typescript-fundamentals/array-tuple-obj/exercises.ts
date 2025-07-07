@@ -67,3 +67,17 @@ const numBase: number[] = [2, 8, 9, 4];
 const numRadd: number[] = numBase.map(numero => numero * 2);
 
 console.log(numRadd);
+
+
+// Crea un oggetto chiamato auto con due proprietà:
+// marca
+// anno
+// Poi stampa: 
+// Auto: Fiat, anno: 2012
+
+let auto: { marca: string, anno: number } = {
+    marca: "Fiat",
+    anno: 2012
+}
+
+console.log(`Auto: ${auto.marca} anno: ${auto.anno}`);
