@@ -54,3 +54,8 @@ function prodotto(dettagli: [nome: string, prezzo: number]): void {
 }
 
 prodotto(["Monitor", 235]);
+
+// Crea un array di nomi e stampa "Ciao, nome" per ognuno.
+
+const nomi: string[] = ["Mario", "Matteo", "Sossio"];
+nomi.forEach(nome => console.log(`Ciao, ${nome}`));
