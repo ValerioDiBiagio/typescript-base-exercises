@@ -56,4 +56,36 @@ const prod: Prodotti[] = [
     { nome: "Zaino", prezzo: 50, disponibile: false }
 ]
 
-prod.forEach(prodotto => console.log(prodotto.nome, prodotto.prezzo, prodotto.disponibile)); 
+prod.forEach(prodotto => console.log(prodotto.nome, prodotto.prezzo, prodotto.disponibile));
+
+
+// Crea un tipo Persona con:
+
+// nome
+
+// eta
+
+// Estendi Persona in un nuovo tipo chiamato Impiegato, che aggiunge:
+
+// ruolo
+
+// stipendio
+
+// Crea una variabile di tipo Impiegato e stampala.
+
+{
+    type Persona = {
+        nome: string,
+        eta: number
+    }
+
+
+    type Impiegato = Persona & {
+        ruolo: string,
+        stipendio: number
+    }
+
+    const Impiegato: Impiegato = { nome: "Marco", eta: 38, ruolo: "Impiegato", stipendio: 1600 }
+    console.log(Impiegato);
+
+}
