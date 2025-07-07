@@ -36,3 +36,8 @@ function utente(dati: [nome: string, eta: number]): void {
 }
 
 utente(["Luca", 23]);
+
+// Crea una tupla con coordinate x e y (numeri) e stampale.
+
+const coordinate: [number, number] = [5, 8];
+coordinate.forEach(cordinata => console.log(cordinata));
