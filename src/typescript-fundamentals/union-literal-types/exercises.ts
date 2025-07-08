@@ -89,7 +89,33 @@
 // e stampa un messaggio diverso a seconda del ruolo.
 
 
+{
+    type Utente = {
+        nome: string,
+        cognome: string,
+        ruolo: string
+    }
 
+    let u: Utente = {
+        nome: "Luca",
+        cognome: "Rossi",
+        ruolo: "impiegato"
+    }
+
+    console.log(u);
+
+    function verificaAccesso(p: Utente): void {
+        if (p.ruolo === "impiegato") {
+            console.log("Il suo ruolo è impiegato")
+
+        } else {
+            console.log("Il suo ruolo non è l'impiegato")
+        }
+
+    }
+
+    verificaAccesso(u)
+}
 
 // Crea una funzione calcolaSconto che accetta o:
 
