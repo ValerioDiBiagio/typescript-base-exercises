@@ -35,10 +35,17 @@
 }
 
 
-
 // Scrivi una funzione stampaNomi che accetta un array di stringhe e stampa ogni nome.
 
+{
 
+    function stampaNomi(nomi: string[]): void {
+        nomi.forEach(nome => console.log(nome))
+
+    }
+
+    stampaNomi(["Marco", "Luca"])
+}
 
 
 // Scrivi una funzione descriviPersona che prende un oggetto { nome: string; eta: number } e ritorna una stringa descrittiva.
