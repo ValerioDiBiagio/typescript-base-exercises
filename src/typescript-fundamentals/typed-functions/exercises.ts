@@ -11,6 +11,14 @@
 
 // Scrivi una funzione saluta che prende un nome e ritorna una frase tipo: "Ciao, Mario!".
 
+{
+    function saluta(nome: string): string {
+        return `Ciao, ${nome}!`
+    }
+
+    console.log(saluta("Mario"))
+}
+
 
 
 // Scrivi una funzione èMaggiorenne che prende un'età e restituisce true se è maggiore o uguale a 18, altrimenti false.
