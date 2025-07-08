@@ -117,3 +117,37 @@
 
 // Crea un enum stringa Direzione con: "nord", "sud", "est", "ovest".
 // Scrivi una funzione muovi(d: Direzione) che stampi: "Vai a nord", ecc.
+
+{
+
+    enum Direzione {
+        Nord = "Nord",
+        Sud = "Sud",
+        Est = "Est",
+        Ovest = "Ovest"
+    }
+
+
+    function muovi(d: Direzione): void {
+        switch (d) {
+            case Direzione.Nord:
+                console.log(`Vai a ${d}`);
+                break;
+            case Direzione.Sud:
+                console.log(`Vai a ${d}`);
+                break;
+            case Direzione.Est:
+                console.log(`Vai a ${d}`);
+                break;
+            case Direzione.Ovest:
+                console.log(`Vai a ${d}`);
+                break;
+        }
+    }
+
+    muovi(Direzione.Nord);
+    muovi(Direzione.Sud);
+    muovi(Direzione.Est);
+    muovi(Direzione.Ovest);
+
+}
