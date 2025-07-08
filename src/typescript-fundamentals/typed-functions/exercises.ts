@@ -20,8 +20,19 @@
 }
 
 
-
 // Scrivi una funzione èMaggiorenne che prende un'età e restituisce true se è maggiore o uguale a 18, altrimenti false.
+
+{
+    function eMaggiorenne(eta: number): boolean {
+        if (eta >= 18) {
+            return true
+        } else {
+            return false
+        }
+    }
+
+    console.log(eMaggiorenne(23))
+}
 
 
 
