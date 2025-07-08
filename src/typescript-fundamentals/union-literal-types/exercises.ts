@@ -124,3 +124,23 @@
 // o la stringa "nessuno"
 
 // Se è un numero, calcola lo sconto su un prezzo. Se "nessuno", torna il prezzo intero.
+
+
+{
+    type ScontoValore = number | "nessuno"
+
+    function calcolaSconto(prezzoIniziale: number, sconto: ScontoValore): number {
+
+        if (typeof sconto === "number") {
+            const importoSconto = prezzoIniziale * (sconto / 100)
+            return prezzoIniziale - importoSconto
+        } else {
+            return prezzoIniziale
+
+        }
+
+    }
+
+    console.log(calcolaSconto(120, 20))
+
+}
