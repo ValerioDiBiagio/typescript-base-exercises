@@ -46,11 +46,23 @@
 
 }
 
-
-
-
 // Definisci un type chiamato RuoloUtente, che può essere solo uno di questi valori letterali:
 // "admin", "user", "guest"
+
+{
+    type RuoloUtente = "admin" | "user" | "guest"
+
+    let ruolo: RuoloUtente = "admin"
+    console.log(ruolo);
+
+    ruolo = "user"
+    console.log(ruolo);
+
+    ruolo = "guest"
+    console.log(ruolo);
+
+}
+
 
 // Crea un type chiamato Utente, con le seguenti proprietà:
 // nome
