@@ -14,6 +14,19 @@
 // Definisci una variabile stato che può essere solo "online" o "offline".
 
 
+{
+    type statoConnessione = "online" | "offline"
+
+    let stato: statoConnessione = "online"
+    console.log(stato);
+
+
+    stato = "offline"
+    console.log(stato);
+
+}
+
+
 
 // Scrivi una funzione segnalaStato che accetta solo "ok" o "errore" e stampa un messaggio diverso in base al valore.
 
