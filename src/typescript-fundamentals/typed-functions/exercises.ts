@@ -49,3 +49,13 @@
 
 
 // Scrivi una funzione descriviPersona che prende un oggetto { nome: string; eta: number } e ritorna una stringa descrittiva.
+
+{
+    function descriviPersona(persona: { nome: string; eta: number }): string {
+        return (`Mi chiamo ${persona.nome} e ho ${persona.eta} anni`)
+
+    }
+
+    console.log(descriviPersona({ nome: "Mario", eta: 24 }));
+
+}
