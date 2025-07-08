@@ -15,9 +15,9 @@
 
 
 {
-    type statoConnessione = "online" | "offline"
+    type StatoConnessione = "online" | "offline"
 
-    let stato: statoConnessione = "online"
+    let stato: StatoConnessione = "online"
     console.log(stato);
 
 
@@ -31,9 +31,9 @@
 
 
 {
-    type fornireStato = "ok" | "errore"
+    type FornireStato = "ok" | "errore"
 
-    function segnalaStato(stato: fornireStato): void {
+    function segnalaStato(stato: FornireStato): void {
         if (stato === "ok") {
             console.log("Lo stato è ok")
         } else if (stato === "errore") {
@@ -67,6 +67,23 @@
 // Crea un type chiamato Utente, con le seguenti proprietà:
 // nome
 // ruolo
+
+
+
+{
+    type Utente = {
+        nome: string,
+        ruolo: string
+    }
+
+    let p: Utente = {
+        nome: "Luca",
+        ruolo: "impiegato"
+    }
+
+    console.log(p)
+}
+
 
 // Scrivi una funzione verificaAccesso che accetta un oggetto di tipo Utente
 // e stampa un messaggio diverso a seconda del ruolo.
