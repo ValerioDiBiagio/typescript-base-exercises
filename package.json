@@ -9,7 +9,9 @@
     "e2": "node dist/typescript-fundamentals/primitive-base/exercises.js",
     "e3": "node dist/typescript-fundamentals/special-types/exercises.js",
     "e4": "node dist/typescript-fundamentals/array-tuple-obj/exercises.js",
-    "e5": "node dist/typescript-fundamentals/interface-type/exercises.js"
+    "e5": "node dist/typescript-fundamentals/interface-type/exercises.js",
+    "e6": "node dist/typescript-fundamentals/typed-functions/exercises.js",
+    "e7": "node dist/typescript-fundamentals/union-literal-types/exercises.js"
   },
   "keywords": [],
   "author": "",
