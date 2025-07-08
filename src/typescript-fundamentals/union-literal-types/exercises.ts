@@ -27,8 +27,24 @@
 }
 
 
-
 // Scrivi una funzione segnalaStato che accetta solo "ok" o "errore" e stampa un messaggio diverso in base al valore.
+
+
+{
+    type fornireStato = "ok" | "errore"
+
+    function segnalaStato(stato: fornireStato): void {
+        if (stato === "ok") {
+            console.log("Lo stato è ok")
+        } else if (stato === "errore") {
+            console.log("C'è un erroe!")
+        }
+    }
+
+    segnalaStato("ok")
+    segnalaStato("errore")
+
+}
 
 
 
