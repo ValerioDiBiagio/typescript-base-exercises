@@ -12,9 +12,9 @@ function numeriPari(numeri: number[]): number[] {
 
 console.log(numeriPari([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]));
 
-// Somma tutti i numeri dell’array [3, 7, 2, 8, 13].
+// Somma tutti i numeri dell’array [3, 7, 2, 8, 15].
 
-const numbers: number[] = [3, 7, 2, 8, 13];
+const numbers: number[] = [3, 7, 2, 8, 15];
 
 const som = numbers.reduce((tot, valore) => tot + valore)
 console.log(som);
